@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Meijin</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="interest.html">Interest</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact-form" style="background-image: url('aboutme.jpg'); background-size: cover; background-position: center;">
+        <div class="form-container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <form>
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Your Full Name" required style="width: 100%;">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required style="width: 100%;">
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Your Address" required style="width: 100%;">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required style="width: 100%;"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
